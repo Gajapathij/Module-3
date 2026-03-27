@@ -13,8 +13,20 @@ To write a Python program to check whether the string `"google"` is a **palindro
 
 ## 🧾 Program
 
-Add code here
+s = "google"
+rev = s[::-1]
+
+
+if s == rev:
+    print("The string is a palindrome")
+else:
+    print("The string is not a palindrome")
+
+
 
 ## Output
+<img width="497" height="180" alt="image" src="https://github.com/user-attachments/assets/e44aaed8-51eb-4219-bc2e-0fdd4991be9e" />
+
 
 ## Result
+The given string "google" is not a palindrome.
